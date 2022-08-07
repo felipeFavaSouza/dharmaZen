@@ -4,66 +4,186 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../style/style.css" />
     <title>Tratamientos</title>
   </head>
   <body>
-    <div class="grid-container">
-      <nav>
-        <header>
-          <a href="../index.html"
-            ><img
-              class="logo-img"
-              src="../images/logo-sin-fondo.png"
-              alt="logo"
-          /></a>
-        </header>
-        <ul class="navbar">
-          <li class="menuLi">
-            <a href="../index.html" class="menuBtn">HOME</a>
-          </li>
-          <li class="menuLi">
-            <a href="preguntasFrecuentes.html" class="menuBtn">FAQ</a>
-          </li>
-          <li class="menuLi">
-            <a href="sobre.html" class="menuBtn">SOBRE</a>
-          </li>
-          <li class="menuLi">
-            <a href="tratamientos.html" class="menuBtn">TRATAMIENTOS</a>
-          </li>
-          <li class="menuLi">
-            <a href="contacto.html" class="menuBtn">CONTACTO</a>
-          </li>
-        </ul>
-        <div class="social-grid">
-          <div class="social-media instagran">
-            <a href="#"
-              ><img src="../images/instagram.png" alt="icono instagram"
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="text-center">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                class="logo-img img-fluid"
+                src="../images/logo-sin-fondo.png"
+                alt="logo"
             /></a>
           </div>
-          <div class="social-media whatsapp">
-            <a href="#"
-              ><img src="../images/whatsapp.png" alt="icono whatsapp"
-            /></a>
-          </div>
-          <div class="social-media youtube">
-            <a href="#"
-              ><img src="../images/youtube.png" alt="icono youtube"
-            /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre.html">SOBRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./tratamientos.html"
+                  >TRATAMIENTOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./preguntasFrecuentes.html">F&Q</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+            <div class="container social-container">
+              <div class="social-media instagram">
+                <a href="https://instagram.com/dharma__zen?igshid=YmMyMTA2M2Y="
+                  ><img src="../images/instagram.png" alt="icono instagram"
+                /></a>
+              </div>
+              <div class="social-media whatsapp">
+                <a href="#"
+                  ><img src="../images/whatsapp.png" alt="icono whatsapp"
+                /></a>
+              </div>
+              <div class="social-media youtube">
+                <a href="#"
+                  ><img src="../images/youtube.png" alt="icono youtube"
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
-      <main class="fq-main">
-        <section>
-          <p>En construccion!</p>
-        </section>
+      <main class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <img
+              src="../images/acupuntura.webp"
+              alt="tratamiento acupuntura"
+              class="img-fluid rounded trata-img"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <h2>ACUPUNTURA</h2>
+            <p>
+              La acupuntura es la estimulación de sitios anatómicos en el piel.
+              El procedimiento más adoptado en el mundo actual es la inserción
+              sobre la piel de agujas metálicas desechables muy finas y sólidas,
+              manipulados manualmente o mediante estímulos eléctricos. En Según
+              la tradición china, la técnica es capaz de ajustar canales
+              energéticos del cuerpo, llamados meridianos en acupuntura, según
+              el equilibrio del yin y el yang. La acupuntura es reconocida por
+              la Organización Mundial de la Salud como una técnica que previene
+              y trata cientos de dolencias.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <img
+              src="../images/auriculo.jpeg"
+              alt="tratamiento auriculoterapia"
+              class="img-fluid rounded trata-img"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <h2>AURICULOTERAPIA</h2>
+            <p>
+              La auriculoterapia es una terapia que consiste en la estimulación
+              con semillas de mostaza en puntos específicos de la oreja para
+              calmar dolor o tratar diversos problemas físicos o psicológicos,
+              tales como: ansiedad, migraña, obesidad o contracturas. Además La
+              auriculoterapia ayuda a diagnosticar y prevenir algunas
+              enfermedades a través de la observación de los puntos específicos
+              de la oreja que están cambiados.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <img
+              src="../images/massagem-relaxante.jpeg"
+              alt="tratamiento masaje relajante"
+              class="img-fluid rounded trata-img"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <h2>MASAJE RELAJANTE</h2>
+            <p>
+              Mediante movimientos ligeros, el masaje relajante es una excelente
+              alternativa para el tratamiento del dolor muscular. Causados
+              ​​generalmente por estrés, problemas de postura o incluso
+              movimientos repetitivos, estos hábitos son perjudiciales, dando
+              lugar a diferentes enfermedades. De esta forma, es una herramienta
+              que favorece el bienestar, aliviando las molestias de las regiones
+              más afectadas.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <img
+              src="../images/moxabustao.png"
+              alt="tratamiento moxabustion"
+              class="img-fluid rounded trata-img"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <h2>MOXIBUSTIÓN</h2>
+            <p>
+              Basicamente a moxabustão é uma técnica não invasiva que utiliza o
+              calor gerado pela queima da erva Artemísia no tratamento de dores
+              musculares, induzindo ao relaxamento , diminuição da rigidez
+              muscular e provocando um aumento local da circulação sanguínea. A
+              moxabustão também causa efeitos positivos no sistema imunológico.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <img
+              src="../images/ventosaterapia.jpeg"
+              alt="tratamiento de ventosaterapia"
+              class="img-fluid rounded trata-img"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12 mt-3">
+            <h2>VENTOSATERAPIA</h2>
+            <p>
+              Procedimiento en el que se utiliza succión en una zona específica
+              o punto de acupuntura, con el objetivo de atraer energía al lugar
+              o desplazarla, desbloqueando el flujo de energía en los
+              Meridianos.
+            </p>
+          </div>
+        </div>
       </main>
-
-      <footer>
+      <footer class="navbar-light bg-light">
         <p><strong>Dirección:</strong> Av. Cabildo 123, Colegiales, CABA</p>
         <p><strong>Whatsapp:</strong> 1122220000</p>
         <p><strong>E-mail:</strong> info@dharmazen.com</p>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
