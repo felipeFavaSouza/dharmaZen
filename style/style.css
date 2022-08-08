@@ -4,12 +4,12 @@
   padding: 0;
 }
 
-/* Home page */
-
 body {
   font-family: "Roboto", "Sans Serif";
   background-color: rgb(255, 255, 255);
 }
+
+/* Navbar styles */
 
 nav {
   margin-bottom: 1rem;
@@ -33,7 +33,7 @@ nav {
 /* Main section styling */
 
 .main-image {
-  margin: 0.6rem 0.6rem;
+  margin: 0.7rem 0.6rem;
 }
 
 .main-image img {
@@ -44,15 +44,31 @@ nav {
 
 .video-main {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .video-main iframe {
   max-width: 100%;
 }
 
+.bio p {
+  padding: 2em 1em 1em 2em;
+}
+
 .articles {
   background-color: #eeebeb;
   color: rgb(105, 105, 105);
+}
+
+/* Sobre page styling */
+
+.sobre-img {
+  max-height: 90vh;
+}
+
+.sobre-btn {
+  margin-top: 2rem;
 }
 
 /* Tratamientos page */
