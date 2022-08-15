@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); /* Sobre page styling */
+.sobre-img {
+  max-height: 90vh;
+}
+
+.sobre-btn {
+  margin-top: 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +17,37 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-/* Navbar styles */
+/* Social media transformation */
+.social-media img:hover {
+  transform: scale(1.2);
+}
 
+/* Main Image Animation */
+.fade-in-fwd {
+  -webkit-animation: fade-in-fwd 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
 nav {
   margin-bottom: 1rem;
 }
@@ -31,7 +68,6 @@ nav {
 }
 
 /* Main section styling */
-
 .main-image {
   margin: 0.7rem 0.6rem;
 }
@@ -39,7 +75,8 @@ nav {
 .main-image img {
   max-height: 50vh;
   min-width: 90%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .video-main {
@@ -61,18 +98,7 @@ nav {
   color: rgb(105, 105, 105);
 }
 
-/* Sobre page styling */
-
-.sobre-img {
-  max-height: 90vh;
-}
-
-.sobre-btn {
-  margin-top: 2rem;
-}
-
 /* Tratamientos page */
-
 .trata-img {
   max-width: 80%;
 }
@@ -80,42 +106,4 @@ nav {
 footer {
   margin-top: 2rem;
   padding: 1rem;
-}
-
-/* Social media transformation */
-
-.social-media img:hover {
-  transform: scale(1.2);
-}
-
-/* Main Image Animation */
-
-.fade-in-fwd {
-  -webkit-animation: fade-in-fwd 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-fwd 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-@-webkit-keyframes fade-in-fwd {
-  0% {
-    -webkit-transform: translateZ(-80px);
-    transform: translateZ(-80px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-in-fwd {
-  0% {
-    -webkit-transform: translateZ(-80px);
-    transform: translateZ(-80px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
-}
+}/*# sourceMappingURL=style.css.map */

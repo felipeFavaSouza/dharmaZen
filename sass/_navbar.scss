@@ -1,0 +1,20 @@
+nav {
+  margin-bottom: 1rem;
+}
+
+.logo-img {
+  max-width: 40%;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0.2rem;
+  }
+}

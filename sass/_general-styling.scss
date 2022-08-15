@@ -1,0 +1,11 @@
+$primary-color: rgb(255, 255, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Sans Serif";
+  background-color: $primary-color;
+}
