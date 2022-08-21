@@ -11,10 +11,14 @@ nav {
   justify-content: center;
 }
 
+.socialMedia {
+  max-width: 30px;
+  max-height: 30px;
+}
+
 .social-media {
   img {
-    max-width: 30px;
-    max-height: 30px;
+    @extend .socialMedia;
     margin: 0.2rem;
   }
 }

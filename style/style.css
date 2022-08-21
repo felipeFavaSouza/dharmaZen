@@ -61,9 +61,12 @@ nav {
   justify-content: center;
 }
 
-.social-media img {
+.socialMedia, .social-media img {
   max-width: 30px;
   max-height: 30px;
+}
+
+.social-media img {
   margin: 0.2rem;
 }
 
@@ -98,9 +101,17 @@ nav {
   color: rgb(105, 105, 105);
 }
 
-/* Tratamientos page */
+h1 {
+  font-size: 35px;
+}
+
 .trata-img {
-  max-width: 80%;
+  height: 330px;
+  width: 500px;
+}
+
+.tratamientos-title {
+  margin-bottom: 2rem;
 }
 
 footer {
