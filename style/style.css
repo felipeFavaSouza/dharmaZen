@@ -61,7 +61,7 @@ nav {
   justify-content: center;
 }
 
-.socialMedia, .social-media img {
+.social-media-extend, .social-media img {
   max-width: 30px;
   max-height: 30px;
 }
@@ -74,7 +74,6 @@ nav {
 .main-image {
   margin: 0.7rem 0.6rem;
 }
-
 .main-image img {
   max-height: 50vh;
   min-width: 90%;
@@ -87,7 +86,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-
 .video-main iframe {
   max-width: 100%;
 }

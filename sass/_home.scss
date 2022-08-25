@@ -2,9 +2,6 @@
 
 .main-image {
   margin: 0.7rem 0.6rem;
-}
-
-.main-image {
   img {
     max-height: 50vh;
     min-width: 90%;
@@ -16,15 +13,16 @@
   max-width: 100%;
   display: flex;
   justify-content: center;
-}
+  iframe {
+    max-width: 100%;
+  }
+} 
 
-.video-main iframe {
-  max-width: 100%;
-}
-
-.bio p {
-  padding: 2em 1em 1em 2em;
-}
+.bio {
+  p {
+    padding: 2em 1em 1em 2em;
+  }
+} 
 
 .articles {
   background-color: #eeebeb;
